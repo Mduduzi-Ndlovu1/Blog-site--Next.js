@@ -1,0 +1,186 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variable files
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Compiled files
+dist/
+build/
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# Package-lock files (you may want to keep these)
+# npm
+package-lock.json
+# yarn
+yarn.lock
+# pnpm
+pnpm-lock.yaml
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.backup
+
+# Svelte
+__sapper__/
+.svelte-kit/
+.svelte/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+node_modules/
+
+# Gatsby
+.cache/
+public/
+
+# React Native
+.expo/
+.expo-shared/
+
+# Python virtual environment
+venv/
+__pycache__/
+
+# Ruby
+*.gem
+.ruby-version
+.ruby-gemset
+.rubocop.yml
+.rspec
+
+# Rust
+*.rs.bk
+target/
+Cargo.lock
+
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+pom.xml
+
+# Gradle
+.gradle/
+build/
+
+# Jekyll
+_site/
+
+# Hugo
+/public/
+
+# Laravel
+/vendor/
+.env
+.phpunit.result.cache
+
+# Django
+*.sqlite3
+db.sqlite3
+__pycache__/
+*.py[cod]
+
+# Flask
+instance/
+.webassets-cache
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Rails
+*.rbc
+*.sass-cache
+capybara-*.html
+.rspec
+/log
+/tmp
+/coverage/
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/vendor/bundle
+/vendor/cache
+*.swp
+.redcar/
+.sass-cache/
+.rvmrc
+.bundle/
+/public/assets
+
+# WordPress
+wp-content/plugins/
+/wp-content/themes/
+/wp-content/uploads/
+/wp-content/cache/
+
+# Elixir
+*.ez
+
+# Haskell
+*.hi
+*.dyn_hi
+*.dyn_o
+*.o
+*.a
+*.so
+
+# Rust
+*.rlib
