@@ -8,6 +8,8 @@ const CardList = () => {
     <section className={styles.container}>
       <h1 className={styles.title}>Recent Posts</h1>
         <Card/>
+        <Card/>
+        <Card/>
       <Pagination/>
     </section>
   )
