@@ -1,9 +1,10 @@
-import React from 'react'
-import styles from './navbar.module.css'
-import Image from 'next/image'
-import Link from 'next/link'
-import AuthLinks from '../authLinks/AuthLinks'
-import ThemeToggle from '../themeToggle/ThemeToggle'
+import React from 'react';
+import styles from './navbar.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
+import AuthLinks from '../authLinks/AuthLinks';
+import ThemeToggle from '../themeToggle/ThemeToggle';
+
 const Navbar = () => {
   return (
     <div className={styles.container}>
@@ -16,14 +17,13 @@ const Navbar = () => {
       <div className={styles.logo}>LeagueBlog</div>
       <div className={styles.links}>
         <ThemeToggle/>
-        <Link href="/">Home Page</Link>  
-        <Link href="/">Contact Us</Link>  
-        <Link href="/">About Us</Link>  
+        <Link href="/" className={styles.link}>Home Page</Link>  
+        <Link href="/" className={styles.link}>Contact Us</Link>  
+        <Link href="/" className={styles.link}>About Us</Link>  
         <AuthLinks/>
       </div> 
-      
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
