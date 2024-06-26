@@ -1,0 +1,26 @@
+ .categoryList {
+    margin-top: 35px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+
+ .categoryItem {
+    padding: 10px 25px;
+    font-size: 14px;
+    border-radius: 10px;
+ }
+
+ .categoryItem.growth{
+    background-color: #57c4ff31;
+}
+.categoryItem.teamwork{
+    background-color: #56ffcc31;
+}
+.categoryItem.psychological{
+    background-color: #f1d53631;
+}
+.categoryItem.lessons{
+    background-color: #e444bc31;
+}
